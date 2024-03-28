@@ -4,8 +4,9 @@ const headerNavClose = document.querySelector('.header__nav-close');
 
 headerBurger.addEventListener('click', () => {
     headerNav.classList.toggle('d__block');
-})
+});
+
 
 headerNavClose.addEventListener('click', () => {
-    headerNav.classList.toggle('d__block');
-})
+    headerNav.classList.toggle('headerNavActive');
+});
