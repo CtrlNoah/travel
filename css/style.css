@@ -503,6 +503,12 @@ body {
   }
 }
 
+@media (max-width:482px) {
+  .search-form__submit {
+    margin-bottom: 70px;
+  }
+}
+
 @media (max-width:465px) {
   .benefits__title {
     padding-left: 10px;
